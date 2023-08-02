@@ -116,6 +116,7 @@ if 5  > 2 :
    print(thisTuple[2:])#prints all values from index 2 to the end
 
    #range of negative indexes 
+   print("RANGE OF NEGATIVE INDEXES")
    thisTuple = tuple(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"))
    print(thisTuple[-4:-1])
    print(thisTuple[-1:-4])#this order does not exist since tuples are unchangeable
@@ -203,9 +204,9 @@ if 5  > 2 :
 
    #LOOP TUPLES
    #iterating through items using FOR LOOP
-   thisTuple = (2,3,4,5,6,7,8,9,10,1)
    print("\n")
-   print("LOOP TUPLES")
+   thisTuple = (2,3,4,5,6,7,8,9,10,1)   
+   print("LOOP  TUPLES")
    for x in thisTuple:
       print(x)#displaying all tuple items
 
@@ -223,6 +224,7 @@ if 5  > 2 :
       print(i)
 
    print("\n")
+   #joining tuples
    print("JOINING TUPLES")
    tuple1 = (10,11,12)
    tuple2 = (13,14,15)
@@ -445,3 +447,8 @@ if 5  > 2 :
    #FILE FORMAT
    f= open("demoFile.txt","rt")  
    print(f.read())
+
+   x= [1,2,3,4,5,6]
+
+   for u in x:
+      pass
