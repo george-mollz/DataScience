@@ -448,7 +448,4 @@ if 5  > 2 :
    f= open("demoFile.txt","rt")  
    print(f.read())
 
-   x= [1,2,3,4,5,6]
-
-   for u in x:
-      pass
+   
