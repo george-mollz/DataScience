@@ -4,16 +4,12 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    passwd = "your",
-    database = "BANK"#database name 
+    password = "georgemollel123!@#",
+    #database = "GLOBAL_FOUNDATION"#database name 
 )
 
 #cursor object accesses the database
 mycursor = mydb.cursor()
 
 
-
-#creating table customers with fields id and account
-mycursor.execute("CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, account VARCHAR(255)")
-
-mydb.commit()
+mycursor.execute("CREATE DATABASE GLOBAL_FOUNDATION")
