@@ -145,7 +145,6 @@ print(df)
 print("\n")
 print("CSV files")
 df = pd.read_csv("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\data.csv")
-#df1 = df.open("organization-100.csv", 'rt')
 print(df)#reads all the rows of a dataFrame
 print(df.head())#reads first five rows of a dataFrame
 print(df.tail())#reads last five rows of a dataFrame
