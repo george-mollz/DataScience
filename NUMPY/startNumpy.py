@@ -90,25 +90,29 @@ print(arr[0:2, 1:4])
 
 print("\n")
 #DATA TYPES
+print(" DEFINED DATA TYPES")
 arr = np.array([1,2,3,4])
 print(arr.dtype)
 print(type(arr))
 
 print("\n")
 #creating arrays with a defined data type
-arr = np.array([1,2,3,4,5], dtype='S')
+print("STRING")
+arr = np.array([1,2,3,4,5], dtype='S')#STRING
 print(arr)
 print(arr.dtype)
 print(type(arr))
 
 print("\n")
-arr = np.array([1,2,3,4,5], dtype='f')
+print("FLOAT")
+arr = np.array([1,2,3,4,5], dtype='f')#FLOAT
 print(arr)
 print(arr.dtype)
 print(type(arr))
 
 print("\n")
-arr = np.array([1,2,3,4,5], dtype='i')
+print("INTEGER")
+arr = np.array([1,2,3,4,5], dtype='i')#INTEGER
 print(arr)
 print(arr.dtype)
 print(type(arr))

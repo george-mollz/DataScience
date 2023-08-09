@@ -134,7 +134,7 @@ print("LOADING FILE INTO A DATAFRAME")
 #LOADING FILES INTO A DATAFRAME
 
 print("EXCEL FILES")
-df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\Badly-Structured-Sales-Data-2.xlsx")
+df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\Badly-Structured-Sales-Data-2.xlsx")
 print(df.info())
 print("\n")
 print("DISPLAYING EXCEL DATA")
@@ -144,7 +144,7 @@ print(df)
 
 print("\n")
 print("CSV files")
-df = pd.read_csv("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\data.csv")
+df = pd.read_csv("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\data.csv")
 #df1 = df.open("organization-100.csv", 'rt')
 print(df)#reads all the rows of a dataFrame
 print(df.head())#reads first five rows of a dataFrame
@@ -154,7 +154,7 @@ print(df.tail())#reads last five rows of a dataFrame
 print("\n")
 print("JSON files")
 #JSON
-df = pd.read_json("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\data.json")
+df = pd.read_json("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\data.json")
 print(df)#reads all data
 
 
@@ -168,7 +168,7 @@ print(df.tail())#reads last five data
 print("\n")
 print("LOADING THE WHOLE JSON file INTO A DATAFRAME")
 #loading the json file into a DataFrame
-df = pd.read_json('E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\data.json')
+df = pd.read_json('E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\data.json')
 print(df.to_string())#prints the entire dataFrame
 
 print("\n")
@@ -216,10 +216,10 @@ print(df)
 print("\n")
 print("ANALYZING DATAFRAMES")
 #Analyzing DataFrames
-df = pd.read_csv("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\data.csv")
+df = pd.read_csv("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\data.csv")
 print("READING 20 FIRST ROWS")
 print(df.head(20))#by specifying first n rows it returns first n rows 
-print("READIND 20 LAST ROWS")
+print("READING 20 LAST ROWS")
 print(df.tail(20))#by specifying last n rows it returns last n rows
 
 
@@ -249,7 +249,7 @@ print("\n")
 print("CLEANING EMPTY CELLS")
 print("\n")
 print("EXCEL FILES")
-df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\Badly-Structured-Sales-Data-2.xlsx")
+df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\Badly-Structured-Sales-Data-2.xlsx")
 print(df.info())
 print("\n")
 print("DISPLAYING EXCEL DATA")
@@ -273,7 +273,7 @@ print(new_df.info())
 print("\n")
 print("REMOVINF ROWS USING 'INPLACE=TRUE'")
 print("DISPLAYING EXCEL DATA")
-df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\Badly-Structured-Sales-Data-2.xlsx")
+df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\Badly-Structured-Sales-Data-2.xlsx")
 print("\n")
 print("DISPLAYING SUMMARY INFORMATION ABOUT THE EXCEL DATA")
 print(df.info())
@@ -288,7 +288,7 @@ print(df.info())
 print("\n")
 print("REPLACING EMPTY VALUES USING 'fillna(n,inplace = True)")
 #obtaining the excel file
-df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\Badly-Structured-Sales-Data-2.xlsx")
+df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\Badly-Structured-Sales-Data-2.xlsx")
 #replacing empty values with inplace = True
 df.fillna(130,inplace = True)
 print(df.head(20))#lets see the first twenty rows
@@ -299,7 +299,7 @@ print(df.head(20))#lets see the first twenty rows
 print("\n")
 print("REPLACE ONLY FOR SPECIFIED COLUMNS")
 #obtaining the excel file
-df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\Badly-Structured-Sales-Data-2.xlsx")
+df = pd.read_excel("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\Badly-Structured-Sales-Data-2.xlsx")
 #replacing empty values for specified columns: First class
 print("FIRST CLASS column")
 df["First Class"].fillna(130,inplace = True)
@@ -436,7 +436,7 @@ print("\n")
 print("\n")
 print("PLOTTING")
 #obtaining the dataW3.csv file
-df = pd.read_json("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\data.json")
+df = pd.read_json("E:\APPLICATIONS\VSCODE\PROJECTS\PYTHON\DataScience\PANDAS\data.json")
 #plotting the data.json file
 df.plot()
 plt.show()
